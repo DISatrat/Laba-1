@@ -8,22 +8,20 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            double s = 0;
            
-//            double x = 0.9;
-
-//            double eps = 0.0001;
-
-//            int temp = 0;
-//            double x_lim = 1;
-
-//            while (eps < x_lim)
+//            double s = 1;
+//            double x = 0.2;
+//            double e = 0.0001;
+//            double sum = 0;
+//            int i = 0;
+//            while (e < s)
 //            {
-//                x_lim = Math.Pow(x, temp);
-//                s += x_lim;
-//                temp += 2;
+//                s = Math.Pow(x, i);
+//                sum += s;
+//                i += 2;
 //            }
-//            Console.WriteLine(s);
+//            Console.WriteLine(sum);
+
 //        }
 //    }
 //}

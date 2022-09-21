@@ -8,15 +8,15 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            int p = 1, n = 1, l = 30000;
-
-//            while (p < l)
+//            int n = 1;
+//            int p = 1;
+//            while (p <= 30000)
 //            {
-//                p = p * n;
 //                n += 3;
+//                p *= n;
 
 //            }
-//            Console.WriteLine(n);
+//            Console.WriteLine(n - 3);
 //        }
 //    }
 //}
